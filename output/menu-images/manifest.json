@@ -1,0 +1,205 @@
+{
+  "generator": "built-in image_gen",
+  "assets": [
+    {
+      "type": "product",
+      "id": 1,
+      "slug": "mercimek-corbasi",
+      "subject": "Turkish Mercimek Çorbası: smooth golden yellow red-lentil soup, lemon wedge, light paprika butter swirl, no visible rice",
+      "path": "/images/menu/products/mercimek-corbasi.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Turkish Mercimek Çorbası: smooth golden yellow red-lentil soup, lemon wedge, light paprika butter swirl, no visible rice. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 2,
+      "slug": "ezogelin-corbasi",
+      "subject": "Turkish Ezogelin Çorbası: rustic reddish orange lentil soup with visible bulgur and rice, dried mint and paprika",
+      "path": "/images/menu/products/ezogelin-corbasi.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Turkish Ezogelin Çorbası: rustic reddish orange lentil soup with visible bulgur and rice, dried mint and paprika. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 3,
+      "slug": "domates-corbasi",
+      "subject": "Turkish Domates Çorbası: velvety deep red tomato soup with a small nest of grated melting cheese",
+      "path": "/images/menu/products/domates-corbasi.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Turkish Domates Çorbası: velvety deep red tomato soup with a small nest of grated melting cheese. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 4,
+      "slug": "patates-kizartmasi",
+      "subject": "Patates Kızartması: a generous portion of crisp golden french fries, small side ramekin of ketchup",
+      "path": "/images/menu/products/patates-kizartmasi.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Patates Kızartması: a generous portion of crisp golden french fries, small side ramekin of ketchup. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 5,
+      "slug": "sogan-halkasi",
+      "subject": "Soğan Halkası: golden breaded fried onion rings stacked loosely, small dipping sauce",
+      "path": "/images/menu/products/sogan-halkasi.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Soğan Halkası: golden breaded fried onion rings stacked loosely, small dipping sauce. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 6,
+      "slug": "sigara-boregi",
+      "subject": "Sigara Böreği: slender golden Turkish rolled filo pastry cigars filled with white cheese and parsley, one cut open showing filling",
+      "path": "/images/menu/products/sigara-boregi.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Sigara Böreği: slender golden Turkish rolled filo pastry cigars filled with white cheese and parsley, one cut open showing filling. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 7,
+      "slug": "izgara-kofte",
+      "subject": "Izgara Köfte: six authentic Turkish grilled oval beef meatballs with grill marks, grilled tomato and green pepper, small bulgur side",
+      "path": "/images/menu/products/izgara-kofte.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Izgara Köfte: six authentic Turkish grilled oval beef meatballs with grill marks, grilled tomato and green pepper, small bulgur side. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 8,
+      "slug": "tavuk-sis",
+      "subject": "Tavuk Şiş: two skewers of juicy golden grilled chicken breast cubes with char marks, grilled peppers and tomato, small rice side",
+      "path": "/images/menu/products/tavuk-sis.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Tavuk Şiş: two skewers of juicy golden grilled chicken breast cubes with char marks, grilled peppers and tomato, small rice side. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 9,
+      "slug": "sebzeli-makarna",
+      "subject": "Sebzeli Makarna: penne pasta with zucchini, bell peppers, broccoli and cherry tomatoes, vegetarian, no meat",
+      "path": "/images/menu/products/sebzeli-makarna.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Sebzeli Makarna: penne pasta with zucchini, bell peppers, broccoli and cherry tomatoes, vegetarian, no meat. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 10,
+      "slug": "coban-salata",
+      "subject": "Çoban Salata: authentic Turkish shepherd salad, small diced tomatoes cucumber green peppers onion and parsley with olive oil, no lettuce",
+      "path": "/images/menu/products/coban-salata.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Çoban Salata: authentic Turkish shepherd salad, small diced tomatoes cucumber green peppers onion and parsley with olive oil, no lettuce. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 11,
+      "slug": "mevsim-salata",
+      "subject": "Mevsim Salata: fresh seasonal Turkish salad with mixed green lettuce shredded purple cabbage grated carrot and tomato, lemon",
+      "path": "/images/menu/products/mevsim-salata.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Mevsim Salata: fresh seasonal Turkish salad with mixed green lettuce shredded purple cabbage grated carrot and tomato, lemon. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 12,
+      "slug": "tavuklu-salata",
+      "subject": "Tavuklu Salata: fresh green salad topped with neatly sliced grilled chicken breast, cherry tomatoes cucumber and lettuce",
+      "path": "/images/menu/products/tavuklu-salata.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Tavuklu Salata: fresh green salad topped with neatly sliced grilled chicken breast, cherry tomatoes cucumber and lettuce. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 13,
+      "slug": "sutlac",
+      "subject": "Sütlaç: traditional Turkish baked rice pudding in a small earthenware bowl with caramelized browned skin, creamy white rice pudding visible",
+      "path": "/images/menu/products/sutlac.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Sütlaç: traditional Turkish baked rice pudding in a small earthenware bowl with caramelized browned skin, creamy white rice pudding visible. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 14,
+      "slug": "cikolatali-sufle",
+      "subject": "Çikolatalı Sufle: individual dark chocolate molten souffle in a ceramic ramekin, spoon opening revealing flowing liquid chocolate",
+      "path": "/images/menu/products/cikolatali-sufle.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Çikolatalı Sufle: individual dark chocolate molten souffle in a ceramic ramekin, spoon opening revealing flowing liquid chocolate. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 15,
+      "slug": "cheesecake",
+      "subject": "Cheesecake: one elegant triangular slice of classic creamy cheesecake with biscuit crust and thin red berry topping",
+      "path": "/images/menu/products/cheesecake.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Cheesecake: one elegant triangular slice of classic creamy cheesecake with biscuit crust and thin red berry topping. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 16,
+      "slug": "su",
+      "subject": "Su: clear drinking water in an unbranded clear glass bottle beside a filled water glass, natural condensation, no food",
+      "path": "/images/menu/products/su.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Su: clear drinking water in an unbranded clear glass bottle beside a filled water glass, natural condensation, no food. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 17,
+      "slug": "ayran",
+      "subject": "Ayran: Turkish white yogurt drink with a delicate foamy top in a clear drinking glass, no garnish",
+      "path": "/images/menu/products/ayran.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Ayran: Turkish white yogurt drink with a delicate foamy top in a clear drinking glass, no garnish. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 18,
+      "slug": "cay",
+      "subject": "Çay: authentic Turkish amber tea in a small slender tulip shaped glass on a saucer, tiny spoon, no milk",
+      "path": "/images/menu/products/cay.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Çay: authentic Turkish amber tea in a small slender tulip shaped glass on a saucer, tiny spoon, no milk. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "product",
+      "id": 19,
+      "slug": "turk-kahvesi",
+      "subject": "Türk Kahvesi: traditional foamy Turkish coffee in a small porcelain demitasse on a saucer, small water glass and one Turkish delight",
+      "path": "/images/menu/products/turk-kahvesi.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Türk Kahvesi: traditional foamy Turkish coffee in a small porcelain demitasse on a saucer, small water glass and one Turkish delight. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "category",
+      "id": 1,
+      "slug": "corbalar",
+      "subject": "Çorbalar soup category: three inviting small bowls of Turkish soups: golden lentil, rustic reddish ezogelin and smooth red tomato, lemon wedges",
+      "path": "/images/menu/categories/corbalar.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Çorbalar soup category: three inviting small bowls of Turkish soups: golden lentil, rustic reddish ezogelin and smooth red tomato, lemon wedges. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "category",
+      "id": 2,
+      "slug": "baslangiclar",
+      "subject": "Başlangıçlar starters category: a curated sharing spread of golden french fries, breaded onion rings and slender Turkish cheese filo cigar pastries, small dips",
+      "path": "/images/menu/categories/baslangiclar.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Başlangıçlar starters category: a curated sharing spread of golden french fries, breaded onion rings and slender Turkish cheese filo cigar pastries, small dips. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "category",
+      "id": 3,
+      "slug": "ana-yemekler",
+      "subject": "Ana Yemekler main courses category: appetizing Turkish dining spread with grilled beef kofte, chicken skewers and a small plate of vegetable penne, grilled vegetables",
+      "path": "/images/menu/categories/ana-yemekler.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Ana Yemekler main courses category: appetizing Turkish dining spread with grilled beef kofte, chicken skewers and a small plate of vegetable penne, grilled vegetables. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "category",
+      "id": 4,
+      "slug": "salatalar",
+      "subject": "Salatalar salads category: fresh colorful spread of Turkish chopped tomato cucumber shepherd salad, seasonal leafy salad with shredded purple cabbage and carrot, grilled chicken salad",
+      "path": "/images/menu/categories/salatalar.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Salatalar salads category: fresh colorful spread of Turkish chopped tomato cucumber shepherd salad, seasonal leafy salad with shredded purple cabbage and carrot, grilled chicken salad. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "category",
+      "id": 5,
+      "slug": "tatlilar",
+      "subject": "Tatlılar desserts category: elegant trio of Turkish baked rice pudding in earthenware bowl, chocolate molten souffle and a slice of berry cheesecake",
+      "path": "/images/menu/categories/tatlilar.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: Tatlılar desserts category: elegant trio of Turkish baked rice pudding in earthenware bowl, chocolate molten souffle and a slice of berry cheesecake. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    },
+    {
+      "type": "category",
+      "id": 6,
+      "slug": "icecekler",
+      "subject": "İçecekler drinks category: Turkish tulip glass of amber tea, small porcelain cup of foamy Turkish coffee, glass of white ayran and clear glass bottle of water, no alcohol",
+      "path": "/images/menu/categories/icecekler.jpg",
+      "prompt": "Use case: photorealistic-natural. Asset type: premium Turkish restaurant digital menu photography. Create ONE photorealistic photograph, landscape 4:3 composition. Subject: İçecekler drinks category: Turkish tulip glass of amber tea, small porcelain cup of foamy Turkish coffee, glass of white ayran and clear glass bottle of water, no alcohol. Art direction: warm soft window daylight from left, cream limestone tabletop, understated ivory handmade ceramics, subtle muted olive linen in background, premium yet authentic appetizing food styling, realistic textures and portions, natural warm color grading, editorial food photography, camera at 45 degrees. Main subject centered with generous safe margins for square and wide card cropping, all important food fully in frame. Restrained props, shallow depth of field while main subject sharp. No people, hands, logos, lettering, watermarks, collage, frames or graphics."
+    }
+  ]
+}

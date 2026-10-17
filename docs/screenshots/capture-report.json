@@ -1,0 +1,238 @@
+[
+  {
+    "path": "/",
+    "file": "ana-sayfa.png",
+    "viewport": "1440 × 1000",
+    "title": "Menü · Sofra",
+    "images": [
+      {
+        "src": "/images/menu/categories/ana-yemekler.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/categories/ana-yemekler.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/categories/baslangiclar.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/categories/corbalar.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/categories/icecekler.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/categories/salatalar.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/categories/tatlilar.jpg",
+        "loaded": true
+      }
+    ],
+    "horizontalOverflow": false,
+    "cards": 6
+  },
+  {
+    "path": "/ana-yemekler",
+    "file": "ana-yemekler.png",
+    "viewport": "1440 × 1000",
+    "title": "Ana Yemekler · Sofra",
+    "images": [
+      {
+        "src": "/images/menu/categories/ana-yemekler.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/izgara-kofte.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/sebzeli-makarna.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/tavuk-sis.jpg",
+        "loaded": true
+      }
+    ],
+    "horizontalOverflow": false,
+    "cards": 3
+  },
+  {
+    "path": "/baslangiclar",
+    "file": "baslangiclar.png",
+    "viewport": "1440 × 1000",
+    "title": "Başlangıçlar · Sofra",
+    "images": [
+      {
+        "src": "/images/menu/categories/baslangiclar.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/patates-kizartmasi.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/sigara-boregi.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/sogan-halkasi.jpg",
+        "loaded": true
+      }
+    ],
+    "horizontalOverflow": false,
+    "cards": 3
+  },
+  {
+    "path": "/corbalar",
+    "file": "corbalar.png",
+    "viewport": "1440 × 1000",
+    "title": "Çorbalar · Sofra",
+    "images": [
+      {
+        "src": "/images/menu/categories/corbalar.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/domates-corbasi.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/ezogelin-corbasi.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/mercimek-corbasi.jpg",
+        "loaded": true
+      }
+    ],
+    "horizontalOverflow": false,
+    "cards": 3
+  },
+  {
+    "path": "/icecekler",
+    "file": "icecekler.png",
+    "viewport": "1440 × 1000",
+    "title": "İçecekler · Sofra",
+    "images": [
+      {
+        "src": "/images/menu/categories/icecekler.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/ayran.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/cay.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/su.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/turk-kahvesi.jpg",
+        "loaded": true
+      }
+    ],
+    "horizontalOverflow": false,
+    "cards": 4
+  },
+  {
+    "path": "/salatalar",
+    "file": "salatalar.png",
+    "viewport": "1440 × 1000",
+    "title": "Salatalar · Sofra",
+    "images": [
+      {
+        "src": "/images/menu/categories/salatalar.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/coban-salata.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/mevsim-salata.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/tavuklu-salata.jpg",
+        "loaded": true
+      }
+    ],
+    "horizontalOverflow": false,
+    "cards": 3
+  },
+  {
+    "path": "/tatlilar",
+    "file": "tatlilar.png",
+    "viewport": "1440 × 1000",
+    "title": "Tatlılar · Sofra",
+    "images": [
+      {
+        "src": "/images/menu/categories/tatlilar.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/cheesecake.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/cikolatali-sufle.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/products/sutlac.jpg",
+        "loaded": true
+      }
+    ],
+    "horizontalOverflow": false,
+    "cards": 3
+  },
+  {
+    "path": "/",
+    "file": "ana-sayfa-mobil.png",
+    "viewport": "390 × 844",
+    "title": "Menü · Sofra",
+    "images": [
+      {
+        "src": "/images/menu/categories/ana-yemekler.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/categories/ana-yemekler.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/categories/baslangiclar.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/categories/corbalar.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/categories/icecekler.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/categories/salatalar.jpg",
+        "loaded": true
+      },
+      {
+        "src": "/images/menu/categories/tatlilar.jpg",
+        "loaded": true
+      }
+    ],
+    "horizontalOverflow": false,
+    "cards": 6
+  }
+]

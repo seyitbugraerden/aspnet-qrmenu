@@ -1,33 +1,22 @@
 @model aspnet_qrmenu.Models.CategoryDetailDto
-
-@{
-    ViewData["Title"] = Model.CategoryName;
-}
-
-<a asp-controller="Home" asp-action="Index">← Kategoriler</a>
-
-<h1 class="my-4">@Model.CategoryName</h1>
-
-<div class="row g-3">
-    @foreach (var product in Model.Products)
-    {
-        <div class="col-6 col-md-4">
-            <div class="card h-100">
-                <img src="@product.Image" alt="@product.ProductName" class="card-img-top"
-                     style="height: 180px; object-fit: cover;" />
-
-                <div class="card-body">
-                    <h2 class="h5">@product.ProductName</h2>
-                    <p class="mb-0">
-                        @product.Price.ToString("N2") ₺
-                    </p>
-                </div>
-            </div>
-        </div>
-    }
-</div>
-
-@if (!Model.Products.Any())
-{
-    <p>Bu kategoride henüz ürün bulunmuyor.</p>
-}
+@{ ViewData["Title"] = Model.CategoryName; }
+<div class="breadcrumb-line"><a asp-controller="Home" asp-action="Index">← Tüm kategoriler</a><span>MENÜ / @Model.CategoryName</span></div>
+<section class="detail-hero">
+    <div><span class="eyebrow">SOFRADAN SİZE</span><h1>@Model.CategoryName<span class="accent">.</span></h1><p>Keyfinize eşlik edecek lezzetleri keşfedin.</p><span class="count-pill">@Model.Products.Count lezzet sizi bekliyor</span></div>
+    <div class="detail-hero-image"><img src="@Model.CategoryImage" alt="@Model.CategoryName" data-fallback /><span aria-hidden="true">✳</span></div>
+</section>
+<section class="menu-section" aria-labelledby="products-title">
+    <div class="section-heading"><div><span class="eyebrow">BİR FAVORİ SEÇİN</span><h2 id="products-title">Menüde neler var?</h2></div><label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input type="search" placeholder="Bu kategoride ara…" aria-label="Ürün ara" data-menu-search /></label></div>
+    <div class="product-grid" data-menu-grid>
+        @foreach (var product in Model.Products)
+        {
+            <article class="product-card" data-menu-item data-name="@product.ProductName">
+                <div class="product-image"><img src="@product.Image" alt="@product.ProductName" loading="lazy" data-fallback /></div>
+                <div class="product-info"><span class="product-category">@Model.CategoryName</span><h3>@product.ProductName</h3><div class="product-bottom"><span class="price">@product.Price.ToString("N2", System.Globalization.CultureInfo.GetCultureInfo("tr-TR")) <small>₺</small></span><span class="product-decoration" aria-hidden="true">✳</span></div></div>
+            </article>
+        }
+    </div>
+    @if (!Model.Products.Any()) { <div class="empty-state"><span aria-hidden="true">✳</span><h3>Bu sofraya yeni lezzetler geliyor.</h3><p>Bu kategoride henüz ürün bulunmuyor.</p><a asp-controller="Home" asp-action="Index">Diğer kategorileri keşfet →</a></div> }
+    <div class="empty-state" data-search-empty hidden><h3>Aradığınız lezzet bulunamadı.</h3><p>Başka bir kelimeyle tekrar deneyin.</p></div>
+    <p class="search-status visually-hidden" role="status" aria-live="polite" data-search-status></p>
+</section>

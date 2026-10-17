@@ -1,0 +1,14 @@
+{
+  "description": "ASP.NET Core 10 MVC ve SQL Server ile geliştirilen mobil uyumlu restoran QR menüsü. Kategori ve ürün keşfi, Türkçe arama ve özgün yemek görselleri.",
+  "topics": [
+    "aspnet-core",
+    "aspnet-mvc",
+    "csharp",
+    "dotnet",
+    "entity-framework-core",
+    "sql-server",
+    "qr-menu",
+    "restaurant-menu",
+    "responsive-design"
+  ]
+}

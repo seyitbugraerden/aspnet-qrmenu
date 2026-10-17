@@ -1,30 +1,46 @@
-﻿@model List<aspnet_qrmenu.Models.CategoryViewModel>
-
-@{
-    ViewData["Title"] = "Menü";
-}
-
-<h1>Kategoriler</h1>
-
-<div class="row g-3">
-    @foreach (var category in Model)
-    {
-        <div class="col-6 col-md-4">
-            <div class="card h-100">
-                <img src="@category.CategoryImage" class="card-img-top" alt="@category.CategoryName"
-                     style="height: 180px; object-fit: cover;" />
-
-                <div class="card-body">
-                    <a href="@category.Slug">
-                        <h2 class="h5">@category.CategoryName</h2>
-                    </a>
-                </div>
-            </div>
-        </div>
-    }
-</div>
-
-@if (!Model.Any())
-{
-    <p>Henüz kategori eklenmemiş.</p>
-}
+@model List<aspnet_qrmenu.Models.CategoryViewModel>
+@{ ViewData["Title"] = "Menü"; }
+<section class="hero">
+    <div class="hero-copy">
+        <span class="eyebrow"><span></span> SOFRANIN EN GÜZEL HALİ</span>
+        <h1>Biraz keyif.<br />Bolca <em>lezzet.</em></h1>
+        <p>Birlikte paylaşılan anlara eşlik eden lezzetler.<br class="desktop-break" /> Bugün canınız ne çekiyor?</p>
+        <a class="primary-link" href="#menu">Menüyü keşfet <span aria-hidden="true">↗</span></a>
+        <div class="hero-footnote"><span aria-hidden="true">✳</span> Seçin, keşfedin, anın tadını çıkarın.</div>
+    </div>
+    <div class="hero-visual">
+        @if (Model.Any())
+        {
+            <img class="hero-image" src="@Model.First().CategoryImage" alt="@Model.First().CategoryName" fetchpriority="high" data-fallback />
+        }
+        else
+        {
+            <img class="hero-image" src="~/images/menu-placeholder.svg" alt="Sofra menüsü" />
+        }
+        <div class="hero-shade"></div>
+        <span class="visual-label">KEŞFETMEYE DEĞER</span>
+        <div class="visual-caption"><span>Her zevke bir yer var.</span><span aria-hidden="true">↗</span></div>
+        <div class="round-seal" aria-hidden="true">özenle<br /><strong>sofra.</strong><br />sizin için</div>
+    </div>
+</section>
+<section class="menu-section" id="menu" aria-labelledby="menu-title">
+    <div class="section-heading">
+        <div><span class="eyebrow">MENÜMÜZ</span><h2 id="menu-title">Lezzeti keşfedin<span class="accent">.</span></h2><p>Bir kategori seçin, favori lezzetinizi bulun.</p></div>
+        <label class="search-box"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input type="search" placeholder="Kategori ara…" aria-label="Kategori ara" data-menu-search /></label>
+    </div>
+    <div class="section-meta"><span>TÜM KATEGORİLER</span><span>@Model.Count kategori</span></div>
+    <div class="category-grid" data-menu-grid>
+        @for (var i = 0; i < Model.Count; i++)
+        {
+            var category = Model[i];
+            <a class="category-card" href="@category.Slug" data-menu-item data-name="@category.CategoryName">
+                <div class="category-image"><img src="@category.CategoryImage" alt="" loading="lazy" data-fallback /><span class="card-index">@((i + 1).ToString("D2"))</span><span class="image-action" aria-hidden="true">↗</span></div>
+                <div class="category-caption"><h3>@category.CategoryName</h3><span>Menüyü incele <span aria-hidden="true">→</span></span></div>
+            </a>
+        }
+    </div>
+    @if (!Model.Any()) { <div class="empty-state"><span aria-hidden="true">✳</span><h3>Yeni lezzetlere hazırlanıyoruz.</h3><p>Kategorilerimiz çok yakında burada.</p></div> }
+    <div class="empty-state" data-search-empty hidden><h3>Aradığınız kategori bulunamadı.</h3><p>Başka bir kelimeyle tekrar deneyin.</p></div>
+    <p class="search-status visually-hidden" role="status" aria-live="polite" data-search-status></p>
+</section>
+<div class="closing-note"><span aria-hidden="true">✳</span><p>En güzel sohbetler,<br /><em>aynı sofrada başlar.</em></p><span aria-hidden="true">✳</span></div>
