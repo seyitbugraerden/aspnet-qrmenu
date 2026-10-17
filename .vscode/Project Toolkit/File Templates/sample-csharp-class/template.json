@@ -1,0 +1,22 @@
+{
+  "name": "C# Class",
+  "description": "C# Class oluşturur.",
+  "inputs": [
+    {
+      "name": "typeName",
+      "label": "Ad (uzantı olmadan)",
+      "default": "ProductService"
+    }
+  ],
+  "vars": {
+    "type": "{{typeName|pascal}}"
+  },
+  "files": [
+    {
+      "path": "{{type}}.cs",
+      "source": "Class.cs.tpl",
+      "open": true,
+      "overwrite": false
+    }
+  ]
+}

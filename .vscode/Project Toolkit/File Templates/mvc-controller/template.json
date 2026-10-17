@@ -1,0 +1,22 @@
+{
+  "name": "MVC Controller",
+  "description": "MVC Controller oluşturur.",
+  "inputs": [
+    {
+      "name": "typeName",
+      "label": "Ad (uzantı olmadan)",
+      "default": "Products"
+    }
+  ],
+  "vars": {
+    "type": "{{typeName|pascal}}"
+  },
+  "files": [
+    {
+      "path": "{{type}}Controller.cs",
+      "source": "Controller.cs.tpl",
+      "open": true,
+      "overwrite": false
+    }
+  ]
+}

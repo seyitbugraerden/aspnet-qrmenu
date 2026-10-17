@@ -1,0 +1,22 @@
+{
+  "name": "C# Record (DTO)",
+  "description": "C# Record (DTO) oluşturur.",
+  "inputs": [
+    {
+      "name": "typeName",
+      "label": "Ad (uzantı olmadan)",
+      "default": "ProductDto"
+    }
+  ],
+  "vars": {
+    "type": "{{typeName|pascal}}"
+  },
+  "files": [
+    {
+      "path": "{{type}}.cs",
+      "source": "Record.cs.tpl",
+      "open": true,
+      "overwrite": false
+    }
+  ]
+}

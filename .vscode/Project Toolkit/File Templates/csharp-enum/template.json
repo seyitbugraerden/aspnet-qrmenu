@@ -1,0 +1,22 @@
+{
+  "name": "C# Enum",
+  "description": "C# Enum oluşturur.",
+  "inputs": [
+    {
+      "name": "typeName",
+      "label": "Ad (uzantı olmadan)",
+      "default": "ProductStatus"
+    }
+  ],
+  "vars": {
+    "type": "{{typeName|pascal}}"
+  },
+  "files": [
+    {
+      "path": "{{type}}.cs",
+      "source": "Enum.cs.tpl",
+      "open": true,
+      "overwrite": false
+    }
+  ]
+}

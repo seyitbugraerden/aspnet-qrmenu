@@ -1,0 +1,22 @@
+{
+  "name": "MVC View (Razor)",
+  "description": "MVC View (Razor) oluşturur.",
+  "inputs": [
+    {
+      "name": "typeName",
+      "label": "Ad (uzantı olmadan)",
+      "default": "Index"
+    }
+  ],
+  "vars": {
+    "type": "{{typeName|pascal}}"
+  },
+  "files": [
+    {
+      "path": "{{type}}.cshtml",
+      "source": "View.cshtml.tpl",
+      "open": true,
+      "overwrite": false
+    }
+  ]
+}

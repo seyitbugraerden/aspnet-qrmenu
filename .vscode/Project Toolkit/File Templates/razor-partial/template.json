@@ -1,0 +1,22 @@
+{
+  "name": "MVC Partial View",
+  "description": "MVC Partial View oluşturur.",
+  "inputs": [
+    {
+      "name": "typeName",
+      "label": "Ad (uzantı olmadan)",
+      "default": "ProductCard"
+    }
+  ],
+  "vars": {
+    "type": "{{typeName|pascal}}"
+  },
+  "files": [
+    {
+      "path": "_{{type}}.cshtml",
+      "source": "Partial.cshtml.tpl",
+      "open": true,
+      "overwrite": false
+    }
+  ]
+}

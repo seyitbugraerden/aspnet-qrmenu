@@ -1,0 +1,34 @@
+{
+  "name": "MVC Module (Controller + Model + View)",
+  "description": "MVC Module (Controller + Model + View) oluşturur.",
+  "inputs": [
+    {
+      "name": "typeName",
+      "label": "Ad (uzantı olmadan)",
+      "default": "Products"
+    }
+  ],
+  "vars": {
+    "type": "{{typeName|pascal}}"
+  },
+  "files": [
+    {
+      "path": "{{type}}/Controllers/{{type}}Controller.cs",
+      "source": "Controller.cs.tpl",
+      "open": true,
+      "overwrite": false
+    },
+    {
+      "path": "{{type}}/Models/{{type}}Model.cs",
+      "source": "Model.cs.tpl",
+      "open": true,
+      "overwrite": false
+    },
+    {
+      "path": "{{type}}/Views/Index.cshtml",
+      "source": "View.cshtml.tpl",
+      "open": true,
+      "overwrite": false
+    }
+  ]
+}

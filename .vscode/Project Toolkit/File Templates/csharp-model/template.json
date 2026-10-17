@@ -1,0 +1,22 @@
+{
+  "name": "C# Model (Entity)",
+  "description": "C# Model (Entity) oluşturur.",
+  "inputs": [
+    {
+      "name": "typeName",
+      "label": "Ad (uzantı olmadan)",
+      "default": "Product"
+    }
+  ],
+  "vars": {
+    "type": "{{typeName|pascal}}"
+  },
+  "files": [
+    {
+      "path": "{{type}}.cs",
+      "source": "Model.cs.tpl",
+      "open": true,
+      "overwrite": false
+    }
+  ]
+}
