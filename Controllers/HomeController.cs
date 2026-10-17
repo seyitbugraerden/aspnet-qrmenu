@@ -3,6 +3,10 @@ using Microsoft.AspNetCore.Mvc;
 using aspnet_qrmenu.Models;
 using aspnet_qrmenu.Data;
 using Microsoft.EntityFrameworkCore;
+using aspnet_qrmenu.Entity;
+using Microsoft.AspNetCore.Components.Routing;
+using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace aspnet_qrmenu.Controllers;
 
@@ -30,4 +34,29 @@ public class HomeController : Controller
 
         return View(categories);
     }
+
+    [HttpGet("{slug}")]
+    public async Task<IActionResult> Details(string slug)
+    {
+        var category = await _context.Categories.AsNoTracking().Where(c => c.Slug == slug).Select(c => new CategoryDetailDto
+        {
+            Id = c.Id,
+            CategoryName = c.CategoryName,
+            CategoryImage = c.CategoryImage,
+            Slug = c.Slug,
+            Products = c.Products.OrderBy(p => p.ProductName).Select(p => new ProductDto
+            {
+                Id = p.Id,
+                ProductName = p.ProductName,
+                Image = p.Image,
+                Price = p.Price
+            }).ToList()
+        }).SingleOrDefaultAsync();
+        if (category is null)
+        {
+            return NotFound();
+        }
+        return View(category);
+    }
+
 }
