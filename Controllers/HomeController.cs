@@ -1,24 +1,33 @@
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using aspnet_qrmenu.Models;
+using aspnet_qrmenu.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace aspnet_qrmenu.Controllers;
 
 public class HomeController : Controller
 {
-    public IActionResult Index()
-    {
-        return View();
-    }
+    private readonly AppDbContext _context;
 
-    public IActionResult Privacy()
+    public HomeController(AppDbContext context)
     {
-        return View();
+        _context = context;
     }
-
-    [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-    public IActionResult Error()
+    public async Task<IActionResult> Index()
     {
-        return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        var categories = await _context.Categories
+            .AsNoTracking()
+            .OrderBy(c => c.CategoryName)
+            .Select(c => new CategoryViewModel
+            {
+                Id = c.Id,
+                CategoryName = c.CategoryName,
+                CategoryImage = c.CategoryImage,
+                Slug = c.Slug
+            })
+            .ToListAsync();
+
+        return View(categories);
     }
 }

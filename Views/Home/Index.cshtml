@@ -1,8 +1,30 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model List<aspnet_qrmenu.Models.CategoryViewModel>
+
+@{
+    ViewData["Title"] = "Menü";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<h1>Kategoriler</h1>
+
+<div class="row g-3">
+    @foreach (var category in Model)
+    {
+        <div class="col-6 col-md-4">
+            <div class="card h-100">
+                <img src="@category.CategoryImage" class="card-img-top" alt="@category.CategoryName"
+                     style="height: 180px; object-fit: cover;" />
+
+                <div class="card-body">
+                    <a href="@category.Slug">
+                        <h2 class="h5">@category.CategoryName</h2>
+                    </a>
+                </div>
+            </div>
+        </div>
+    }
 </div>
+
+@if (!Model.Any())
+{
+    <p>Henüz kategori eklenmemiş.</p>
+}
